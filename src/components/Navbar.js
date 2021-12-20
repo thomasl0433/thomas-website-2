@@ -7,7 +7,7 @@ import './Navbar.css';
 const NavbarCustom = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="rounded-bottom">
         <Container>
           <Navbar.Brand id="thomas-name" href="#home">Thomas Levine</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -16,8 +16,8 @@ const NavbarCustom = () => {
               { /* spacing */ }
             </Nav>
             <Nav>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link eventKey={2} href="#projects">
+              <Nav.Link href="#about" className="text-white">About</Nav.Link>
+              <Nav.Link eventKey={2} href="#projects" className="text-white">
                 Projects
               </Nav.Link>
             </Nav>
