@@ -6,8 +6,7 @@ import './Navbar.css';
 
 const NavbarCustom = () => {
   return (
-    <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="rounded-bottom">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="rounded-bottom sticky-top">
         <Container>
           <Navbar.Brand id="thomas-name" href="#home">Thomas Levine</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -24,7 +23,6 @@ const NavbarCustom = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
   );
 };
 

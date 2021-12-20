@@ -8,11 +8,10 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Content = () => {
   return (
     <Container className="mt-4">
-      <Row xs={1} md={2}>
+      <Row xs={1} lg={2}>
         <Col className="d-flex justify-content-center">
           <img
             src={pic}
-            responsive
             alt="headshot"
             className="rounded-circle w-50 h-100"
           />
