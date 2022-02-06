@@ -5,3 +5,7 @@
     height: auto !important;
 }
 
+.spacer {
+    height: 30vh;
+    border: solid red 2px;
+}
